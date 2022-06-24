@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" src="styles.scss" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>JavaScript Arrow Function</h2>
+
+    <p>
+      This example shows the syntax of an Arrow Function, and how to use it.
+    </p>
+    <span>First Number: </span>
+    <input type="text" id="first_num" /> <br /><br />
+    <span>Second Number: </span>
+    <input type="text" id="second_num" /> <br /><br />
+    <button type="button" onclick="myFunction()">Display</button> <br /><br />
+    <p id="demo"></p>
+    <br /><br />
+    <br /><br />
+    <br /><br />
+    <p>
+      This example demonstrate that in Arrow Functions, the "this" keyword
+      represents the object that owns the function, no matter who calls the
+      function.
+    </p>
+
+    <p>
+      Click the button to execute the "hello" function again, and you will see
+      that "this" still represents the window object.
+    </p>
+
+    <button id="btnFunc">Click Me!</button>
+    <p id="demoFunc"></p>
+    <button id="btnArrow">Click Me!</button>
+    <p id="demoArrow"></p>
+
+    <script src="index.js"></script>
+  </body>
+</html>
